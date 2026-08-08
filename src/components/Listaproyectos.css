@@ -1,0 +1,27 @@
+.lista-proyectos {
+  max-width: 420px;
+}
+
+.lista-proyectos h2 {
+  font-size: clamp(24px, 4vw, 32px);
+  font-weight: 900;
+  color: #1e1e1e;
+  margin-bottom: 24px;
+}
+
+.lista-proyectos ul {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+@media (max-width: 600px) {
+  .lista-proyectos {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .lista-proyectos ul {
+    gap: 20px;
+  }
+}
