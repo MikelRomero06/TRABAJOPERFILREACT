@@ -1,6 +1,6 @@
 import React from 'react';
 import BarraNavegacion from './components/BarraNavegacion';
-import SeccionPrincipal from './components/SeccionPrincipal';
+import SeccionProyectos from './components/SeccionProyectos';
 import PiePagina from './components/PiePagina';
 import './App.css';
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="portafolio">
       <BarraNavegacion />
-      <SeccionPrincipal />
+      <SeccionProyectos />
       <PiePagina />
     </div>
   );

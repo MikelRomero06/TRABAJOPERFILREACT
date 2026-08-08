@@ -1,0 +1,38 @@
+.contenedor-informacion {
+  max-width: 420px;
+  text-align: left; 
+}
+
+.contenedor-informacion h1 {
+  font-size: clamp(28px, 5.5vw, 50px);
+  font-weight: 900;
+  color: #ffffff;
+  -webkit-text-stroke: 2.5px #1e1e1e;
+  paint-order: stroke fill; 
+  line-height: 0.95;
+  margin-top: 0;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.contenedor-informacion p {
+  color: #1e1e1e;
+  font-size: 13.5px;
+  line-height: 1.4;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+
+@media (max-width: 600px) {
+  .contenedor-informacion {
+    max-width: 100%;
+    margin: 0 auto; 
+    text-align: center; 
+    padding: 0 15px; 
+  }
+
+  .contenedor-informacion h1 {
+    -webkit-text-stroke: 1.8px #1e1e1e; 
+  }
+}

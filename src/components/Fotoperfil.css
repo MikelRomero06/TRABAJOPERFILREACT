@@ -1,0 +1,62 @@
+.contenedor-foto {
+  position: relative;
+  width: clamp(220px, 40vw, 360px);
+  height: clamp(170px, 31vw, 280px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.figura-fondo {
+  position: absolute;
+  width: 97%;
+  height: 79%;
+  background-color: #f7b955;
+  border: 14px solid #d99136;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  transform: rotate(-12deg);
+  z-index: 1;
+}
+
+.figura-principal {
+  position: absolute;
+  width: 64%;
+  aspect-ratio: 1 / 1;
+  background-color: #f3b200;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  z-index: 2;
+}
+
+.figura-principal img {
+  width: 95%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 480px) {
+  .figura-fondo {
+    border-width: 9px;
+  }
+}
+
+.contenedor-foto--simple {
+  width: clamp(220px, 32vw, 380px);
+  height: clamp(220px, 32vw, 380px);
+}
+
+.contenedor-foto--simple .anillo-simple {
+  position: absolute;
+  inset: 0;
+  background-color: #e8a53d;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.contenedor-foto--simple .figura-principal {
+  width: 85%;
+}
