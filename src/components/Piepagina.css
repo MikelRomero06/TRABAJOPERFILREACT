@@ -1,0 +1,48 @@
+.pie-pagina {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px 40px 30px 40px;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.pie-izquierdo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.pie-izquierdo span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #1e1e1e;
+}
+
+.enlaces-sociales {
+  background-color: #52565e;
+  padding: 8px 12px;
+  border-radius: 25px;
+  display: flex;
+  gap: 10px;
+  width: fit-content;
+}
+
+@media (max-width: 600px) {
+  .pie-pagina {
+    justify-content: center;
+    text-align: center;
+    padding: 10px 20px 26px 20px;
+  }
+
+  .pie-izquierdo {
+    align-items: center;
+  }
+}
+
+@media (max-width: 380px) {
+  .pie-pagina {
+    flex-direction: column;
+    align-items: center;
+  }
+}

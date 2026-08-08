@@ -1,0 +1,36 @@
+.boton {
+  background-color: #52565e;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-family: inherit;
+}
+
+.boton:hover {
+  background-color: #6c717b;
+}
+
+.boton:focus-visible {
+  outline: 3px solid #f3b200;
+  outline-offset: 2px;
+}
+
+.boton--nav {
+  padding: 8px 20px;
+  font-size: 12px;
+}
+
+.boton--info {
+  padding: 12px 24px;
+  font-size: 13px;
+}
+
+@media (max-width: 480px) {
+  .boton--nav {
+    padding: 7px 14px;
+    font-size: 11px;
+  }
+}
