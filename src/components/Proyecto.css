@@ -1,0 +1,22 @@
+.proyecto {
+  list-style: none;
+}
+
+.proyecto-categoria,
+.proyecto-detalle {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #1e1e1e;
+  line-height: 1.5;
+}
+
+.proyecto-categoria {
+  margin-bottom: 2px;
+}
+
+@media (max-width: 600px) {
+  .proyecto-categoria,
+  .proyecto-detalle {
+    font-size: 12px;
+  }
+}
