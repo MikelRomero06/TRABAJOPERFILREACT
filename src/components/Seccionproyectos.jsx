@@ -16,5 +16,5 @@ function SeccionProyectos() {
     </section>
   );
 }
-
+//
 export default SeccionProyectos;

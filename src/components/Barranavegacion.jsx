@@ -22,5 +22,5 @@ function BarraNavegacion() {
     </nav>
   );
 }
-
+//
 export default BarraNavegacion;
